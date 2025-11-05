@@ -26,7 +26,7 @@ public class GeometrikHesap {
 
         // Kullanicidan alinan yaricap degerini kullanarak geometrik hesaplamalar yapilir
         double DaireAlan = pi *(Math.pow(yaricap, 2));
-        double DaireCevre = 2 * pi * yaricap;
+        double DaireCevre = 2.0 * pi * yaricap;
         double KureHacim = 4.0/3.0 * pi * (Math.pow(yaricap, 3));
         double KureAlan = 4.0 * pi * (Math.pow(yaricap, 2));
 
